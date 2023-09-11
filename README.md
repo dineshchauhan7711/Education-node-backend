@@ -1,3 +1,2 @@
 # Education-node-backend
-I have a create a projrct for education system using a mongoDB and node js.
-I have used third party module nodemailler for sending a email.
+I have created a project for an education system using MongoDB and node js. I have used a third-party module Nodemailer to send emails
