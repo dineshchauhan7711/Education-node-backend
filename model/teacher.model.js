@@ -1,0 +1,42 @@
+const mongoose = require("mongoose");
+const salesTalent = mongoose.Schema({
+    name:{
+        type:String,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    phone:{
+        type:String,
+        required:true
+    },
+    education:{
+        type:String,
+        required:true
+    },
+    age:{
+        type:String,
+        required:true
+    },
+    salary:{
+        type:String,
+        required:true
+    },
+    experience:{
+        type:String,
+        required:true
+    },
+    course:{
+        type:String,
+        required:true
+    },
+    image:{
+        type:String,
+        required:true
+    }
+},{timestamps:true},{
+    collection:"salestalent"
+})
+module.exports = mongoose.model("salestalent", salesTalent);
